@@ -8,6 +8,8 @@
 ### Methods
 ### Conclusions and Recommendations
 
+---
+
 ### Introduction
 
 In the past 30 years, we have seen a sizeable increase in the intensification and industrialization of animal agriculture in the United States. The main effect of this has been the transition from smaller, more distributed family farms to larger, more concentrated feedlot operations. When the distribution of livestock changes, the impacts of the externalities associated with animal agriculture change as well, most notably the ecological impact of having an extreme amount of livestock in a very small concentrated area. Livestock waste contains nutrients, most importantly organic nitrogen and phosphorous, that have the potential to degrade water quality through a process known as eutrophication. Effects include harmful algal blooms, fish kills, dead zones, and general ecological disruption that have caused billions of dollars of damage to property values, fishing, recreation, and tourism industries, and municipal water systems. Long term trends in animal agriculture can be observed from the USDA Census of Agriculture and used to approximate effects on local watersheds.
@@ -18,12 +20,18 @@ Livestock waste has the potential to cause both local and widespread ecological 
 
 ### Sources
 
-[USDA Census of Agriculture](ftp://ftp.nass.usda.gov/quickstats/)
+[USDA Census of Agriculture](https://www.nass.usda.gov/AgCensus/)
+
 [USDA - National Agricultural Statistics Service - Surveys - Cattle Inventory](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Cattle_Inventory/)
+
 [USDA - National Agricultural Statistics Service - Surveys - Chickens and Eggs](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Chickens_and_Eggs/index.php)
+
 [USDA - National Agricultural Statistics Service - Surveys - Hog Inventory](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Hog_Inventory/index.php)
+
 [US Counties TIGER/Line Shapefile, 2017, nation, US, Current County and Equivalent National Shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-county-and-equivalent-national-shapefile)
+
 [Literature Review of Contaminants in Livestock and Poultry Manure and Implications for Water Quality](https://nepis.epa.gov/Exe/ZyPDF.cgi/P100H2NI.PDF?Dockey=P100H2NI.PDF)
+
 [303(d) Listed Impaired Waters NHDPlus Indexed Dataset with Program Attributes](https://www.epa.gov/waterdata/waters-geospatial-data-downloads#303dListedImpairedWaters)
 
 ### Methods
@@ -36,31 +44,31 @@ The following county, state, and national-aggregated columns were selected for e
 
 Beef Cows:
 
-- SURVEY|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|(EXCL MILK COWS & REPL HEIFERS)|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CATTLE, (EXCL MILK COWS & REPL HEIFERS) - INVENTORY|TOTAL|NOT SPECIFIED
-- SURVEY|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|COWS, BEEF|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CATTLE, COWS, BEEF - INVENTORY|TOTAL|NOT SPECIFIED
-- CENSUS|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|COWS, BEEF|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CATTLE, COWS, BEEF - INVENTORY|TOTAL|NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | (EXCL MILK COWS & REPL HEIFERS) | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CATTLE, (EXCL MILK COWS & REPL HEIFERS) - INVENTORY | TOTAL | NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | COWS, BEEF | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CATTLE, COWS, BEEF - INVENTORY | TOTAL | NOT SPECIFIED
+- CENSUS | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | COWS, BEEF | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CATTLE, COWS, BEEF - INVENTORY | TOTAL | NOT SPECIFIED
 
 Milk Cows:
 
-- SURVEY|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|COWS, MILK|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CATTLE, COWS, MILK - INVENTORY|TOTAL|NOT SPECIFIED
-- CENSUS|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|COWS, MILK|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CATTLE, COWS, MILK - INVENTORY|TOTAL|NOT SPECIFIED
-- SURVEY|ANIMALS & PRODUCTS|LIVESTOCK|CATTLE|COWS, MILK|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY, AVG|HEAD|CATTLE, COWS, MILK - INVENTORY, AVG, MEASURED IN HEAD|TOTAL|NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | COWS, MILK | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CATTLE, COWS, MILK - INVENTORY | TOTAL | NOT SPECIFIED
+- CENSUS | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | COWS, MILK | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CATTLE, COWS, MILK - INVENTORY | TOTAL | NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | LIVESTOCK | CATTLE | COWS, MILK | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY, AVG | HEAD | CATTLE, COWS, MILK - INVENTORY, AVG, MEASURED IN HEAD | TOTAL | NOT SPECIFIED
 
 Broiler Chickens:
 
-- CENSUS|ANIMALS & PRODUCTS|POULTRY|CHICKENS|BROILERS|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CHICKENS, BROILERS - INVENTORY|TOTAL|NOT SPECIFIED
+- CENSUS | ANIMALS & PRODUCTS | POULTRY | CHICKENS | BROILERS | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CHICKENS, BROILERS - INVENTORY | TOTAL | NOT SPECIFIED
 
 Layer Chickens:
 
-- SURVEY|ANIMALS & PRODUCTS|POULTRY|CHICKENS|(EXCL BROILERS)|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CHICKENS, (EXCL BROILERS) - INVENTORY|TOTAL|NOT SPECIFIED
-- SURVEY|ANIMALS & PRODUCTS|POULTRY|CHICKENS|LAYERS|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY, AVG|HEAD|CHICKENS, LAYERS - INVENTORY, AVG, MEASURED IN HEAD|TOTAL|NOT SPECIFIED
-- SURVEY|ANIMALS & PRODUCTS|POULTRY|CHICKENS|LAYERS|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CHICKENS, LAYERS - INVENTORY|TOTAL|NOT SPECIFIED
-- CENSUS|ANIMALS & PRODUCTS|POULTRY|CHICKENS|LAYERS|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|CHICKENS, LAYERS - INVENTORY|TOTAL|NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | POULTRY | CHICKENS | (EXCL BROILERS) | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CHICKENS, (EXCL BROILERS) - INVENTORY | TOTAL | NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | POULTRY | CHICKENS | LAYERS | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY, AVG | HEAD | CHICKENS, LAYERS - INVENTORY, AVG, MEASURED IN HEAD | TOTAL | NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | POULTRY | CHICKENS | LAYERS | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CHICKENS, LAYERS - INVENTORY | TOTAL | NOT SPECIFIED
+- CENSUS | ANIMALS & PRODUCTS | POULTRY | CHICKENS | LAYERS | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | CHICKENS, LAYERS - INVENTORY | TOTAL | NOT SPECIFIED
 
 Hogs:
 
-- SURVEY|ANIMALS & PRODUCTS|LIVESTOCK|HOGS|ALL CLASSES|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|HOGS - INVENTORY|TOTAL|NOT SPECIFIED
-- CENSUS|ANIMALS & PRODUCTS|LIVESTOCK|HOGS|ALL CLASSES|ALL PRODUCTION PRACTICES|ALL UTILIZATION PRACTICES|INVENTORY|HEAD|HOGS - INVENTORY|TOTAL|NOT SPECIFIED
+- SURVEY | ANIMALS & PRODUCTS | LIVESTOCK | HOGS | ALL CLASSES | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | HOGS - INVENTORY | TOTAL | NOT SPECIFIED
+- CENSUS | ANIMALS & PRODUCTS | LIVESTOCK | HOGS | ALL CLASSES | ALL PRODUCTION PRACTICES | ALL UTILIZATION PRACTICES | INVENTORY | HEAD | HOGS - INVENTORY | TOTAL | NOT SPECIFIED
 
 #### Processing
 
@@ -68,7 +76,7 @@ The USDA census and surveys withhold certain counties from a dataset if the valu
 
 In addition to these withheld values, there were many counties that were missing years and some counties missing entirely from the dataset. It is possible to use relationships both within the data, and across other datasets, to impute these values. The following methods were employed:
 
-1. Linear Relationship Imputation
+##### 1. Linear Relationship Imputation
 
 The value of interest is head inventory by county for each livestock type, and this can be related in a linear fashion to other variables like production, sales etc. For each linear relationship, a linear regression was performed between the variable of interest and the secondary variable, and the coefficient from this regression was used to infer the variable of interests in the counties and/or years where the secondary variable is available. For example, if the data for egg production by county is more complete than the data for layer chicken head by county, the egg production can be divided by a coefficient to infer the layer chicken head where it is missing. The relationships exploited for this type of imputation are as follows:
 
@@ -90,11 +98,11 @@ Hogs:
 - Hog inventory vs. hog breeding inventory
 - Hog inventory vs. hog pig crop
 
-2. Stable Ratio Imputation
+##### 2. Stable Ratio Imputation
 
 In addition to ratios between the value of interest and other measured variables, the ratios within the value of interest across aggregation levels can be used to impute missing values. For counties where that county's contribution to the state total is relatively stable, that ratio can be used to infer the county total where the state total is known. The same logic applies to state contribution to national. Since the state and national data is more complete than the county data, interpolating in this way can easily infer many missing values. For the purposes of this imputation, stable is defined as having a standard deviation of less than 2% in the ratio of county to state or state to nation.
 
-3. Time Series Imputation
+##### 3. Time Series Imputation
 
 In counties where these ratios are not stable as defined above, the values over time must be treated as a time series. For these counties, time series imputation is performed using the Pandas library [.interpolate](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.interpolate.html) function with the "time" method on a time index to ensure appropriate spacing of points. 
 
