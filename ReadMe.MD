@@ -1,13 +1,5 @@
 # Intensification of Animal Agriculture: Watershed Effects
 
-## Table of Contents
-
-### Introduction
-### Executive Summary
-### Sources
-### Methods
-### Conclusions and Recommendations
-
 ---
 
 ### Introduction
